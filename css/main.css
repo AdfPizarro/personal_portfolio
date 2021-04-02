@@ -133,9 +133,36 @@ color: #FFFFFF;
 
 }
 
-.projects{
+.projects, .other-projects{
   width: 80%;
   margin: auto;
+ display: flex;
+ flex-direction: column;
+}
+
+.project-info{
+  margin: 30px;
+}
+
+.project-title{
+  margin-bottom: 20px;
+}
+
+.other-projects{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project{
+  height:  40vh;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+
+justify-content: space-around;
+
 
 }
 
