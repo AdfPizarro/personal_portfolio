@@ -35,6 +35,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 100px;
 }
 
 .navbar{
@@ -60,7 +62,7 @@ font-weight: normal;
 font-size: 20px;
 line-height: 32px;
 color: #F4F5F7;
-width: 40%;
+width: 100%;
 
 }
 
@@ -128,8 +130,14 @@ color: #FFFFFF;
   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/yameme.png");
 }
 
-.img{
+.img {
   margin-right: 180px;
+  width: 30%;
+
+}
+
+.img img{
+width: 50%;
 }
 
 .project-title{
@@ -261,8 +269,6 @@ color: #091E42;
 
 .hey-there{
 
-width: 566px;
-height: 160px;
 
 
 font-family: Crete Round;
@@ -464,4 +470,40 @@ border-right-style: hidden;
 border-left-style: hidden;
 border-bottom-style: groove;
 
+}
+
+
+
+.main-project-image img{
+  width: 100%;
+}
+
+.social-links-sm{display: none;}
+
+@media only screen and (max-width: 600px)  {
+  .img,.sub, .social-links,.dot{display: none;}
+  .hey-there{font-size: 30px;}
+ .main-inner {flex-direction: column;}
+ .text{margin:10px;
+ justify-content: center;}
+ .social-links{flex-direction: column;}
+ .social-links-sm{display: flex; justify-content: space-evenly;}
+  .nav-content{margin: 0,2%;}
+  .main-project, .contact{
+    flex-direction: column;
+  }
+  .other-projects{
+    flex-direction: column;
+  }
+  .project{
+    width: 100%;
+    margin-top: 40px
+  }
+  .skills{
+    flex-direction: column;
+  }
+  .contact-text{
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
