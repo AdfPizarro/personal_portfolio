@@ -112,9 +112,20 @@ background: gray;
 color: #FFFFFF;
 }
 
-.project{
+.project1{
   height: 200px;
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/img.png");
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/app_screenshot.png");
+  background-position: center;
+}
+.project2{
+  height: 200px;
+  background-position: center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/profile.png");
+}
+.project3{
+  height: 200px;
+  background-position: center;
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("../img/yameme.png");
 }
 
 .img{
